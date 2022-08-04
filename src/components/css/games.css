@@ -78,15 +78,27 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.25s;
 }
 
 h2 {
   position: absolute;
-  color: transparent;
+  opacity: 0;
   font-size: 5em;
 }
 
 #imageText:hover {
-  h2 {
-  }
+  cursor: pointer;
+  opacity: 0.1;
+}
+
+h2:hover {
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  opacity: 1;
+}
+
+img:hover {
+  opacity: 1;
 }
