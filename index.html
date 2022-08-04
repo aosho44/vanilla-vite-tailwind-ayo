@@ -6,14 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Vite ➕ Tailwind</title>
+    <title>About Me</title>
   </head>
-  <body>
-    <h1
-      class="text-center text-3xl font-semibold text-red-500 transition-all md:text-5xl"
-    >
-      Hello
-    </h1>
+  <body class="bg-blue-400">
+    <div id="header" class="mb-8">
+      <h1 class="text-black-500 text-center font-serif text-8xl font-black">
+        Ayo Osho
+      </h1>
+    </div>
+    <div id="layout">
+      <div id="about me" class="ml-4 font-serif text-4xl font-medium text-white">
+        <h1>Hi my name is Ayo Osho. This is my "About me" HTML Page</h1>
+      </div>
+      <div class="mt-20 ml-4 font-serif text-3xl font-bold text-white">
+        <h1>My Interests</h1>
+        <div class="flex space-x-4 object-scale-down h-48 w-96">
+          <img
+            src="https://i.guim.co.uk/img/media/0987980d29f8e77eac9b5c0daf2da66403f45e99/0_269_4032_2419/master/4032.jpg?width=1200&quality=85&auto=format&fit=max&s=5d95ca3cf42925418407fe85630dc252"
+            alt="Arsenal"
+            width="400px"
+            class="transition duration-500 ease-in-out hover:scale-110 "
+          />
+          <img
+            src="https://external-preview.redd.it/9zsfiK6p9bfaRL_N2jvKqY9vlHCKVDptpwxzpn3DMx4.jpg?width=640&crop=smart&auto=webp&s=3df8257486cf1675cc8a52c33ce8ff0573cfa3f8"
+            alt="The Flash"
+            width="300px"
+            class="transition duration-500 ease-in-out hover:scale-110"
+          />
+          <img
+            src="https://cdn.sanity.io/images/7g6d2cj1/production/b0fe71e059c2d7a619d7f720a4c67cd4d467b16b-1280x720.jpg"
+            alt="Gaming"
+            width="600px"
+            class="transition duration-500 ease-in-out hover:scale-110"
+          />
+        </div>
+        <div class="mt-4">
+          <h1>Achievements &#9989</h1>
+          <div class="text-xl font-normal">
+            <h1>Completed the Tough Mudder 5k run &#127939</h1>
+            <h1>Completed the Nuclear Race &#127939</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="./src/index.js"></script>
   </body>
