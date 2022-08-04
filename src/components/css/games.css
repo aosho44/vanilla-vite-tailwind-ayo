@@ -56,12 +56,37 @@ button {
   margin: 0;
 }
 
-#aboutMe {
-  font-size: 2em;
-}
-
 p {
   color: rgb(197, 198, 199);
   font-size: 1.5em;
   margin: 0;
+}
+
+#gamesDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+#imageText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  position: absolute;
+  color: transparent;
+  font-size: 5em;
+}
+
+#imageText:hover {
+  h2 {
+  }
 }
