@@ -8,7 +8,10 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         src: resolve(__dirname, "src/index.html"),
-        components: resolve(__dirname, "src/components/html/games.html"),
+        games: resolve(__dirname, "src/components/html/games.html"),
+        hobbies: resolve(__dirname, "src/components/html/hobbies.html"),
+        interest: resolve(__dirname, "src/components/html/interest.html"),
+        socials: resolve(__dirname, "src/components/html/socials.html"),
       },
     },
   },
