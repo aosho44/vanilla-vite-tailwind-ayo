@@ -11,12 +11,13 @@ body {
 
 button {
   font-family: "PT Sans Narrow", sans-serif;
+  cursor: pointer;
 }
 
 #mainBody {
   column-gap: 100px;
   display: grid;
-  grid-template-row: 250px 1fr;
+  grid-template-rows: 100px 1fr;
 }
 
 #navigationBar {
@@ -64,4 +65,33 @@ p {
   color: rgb(197, 198, 199);
   font-size: 1.5em;
   margin: 0;
+}
+
+.socialDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkedinButton {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.25s;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.linkedinButton:hover {
+  opacity: 0.8;
+}
+
+.linkedinButton:active {
+  opacity: 0.4;
 }
