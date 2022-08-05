@@ -43,9 +43,6 @@ button {
   opacity: 0.5;
 }
 
-#mainPage {
-}
-
 #textPage {
   color: rgb(102, 252, 241);
   text-align: center;
@@ -90,6 +87,7 @@ img {
   backdrop-filter: blur(5px);
   background: rgba(0, 0, 0, 0.5);
   color: white;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   font-size: 3em;
