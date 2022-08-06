@@ -10,7 +10,7 @@ export default defineConfig({
         src: resolve(__dirname, "src/index.html"),
         games: resolve(__dirname, "src/components/html/games.html"),
         hobbies: resolve(__dirname, "src/components/html/hobbies.html"),
-        interest: resolve(__dirname, "src/components/html/interest.html"),
+        interest: resolve(__dirname, "src/components/html/projects.html"),
         socials: resolve(__dirname, "src/components/html/socials.html"),
       },
     },
