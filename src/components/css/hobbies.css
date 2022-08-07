@@ -103,6 +103,7 @@ img {
 .arsenal_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
 }
 
 .arsenal_grid {
@@ -110,7 +111,7 @@ img {
 }
 
 .picture {
-  width: 500px;
+  width: 400px;
   height: 400px;
 }
 
