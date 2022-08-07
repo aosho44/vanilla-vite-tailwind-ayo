@@ -11,7 +11,7 @@ button {
 #mainBody {
   column-gap: 100px;
   display: grid;
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: 82px 1fr;
 }
 
 #navigationBar {
